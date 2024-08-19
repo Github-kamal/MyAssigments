@@ -49,7 +49,7 @@ public class CreateAccountSF {
 	driver.executeScript("arguments[0].click();", ownershipType);
 	
 
-	WebElement save = driver.findElement(By.xpath("//button[@title='Save']"));
+	WebElement save = driver.findElement(By.xpath("//button[@name='SaveEdit']"));
 	driver.executeScript("arguments[0].click();", save);
 
 
